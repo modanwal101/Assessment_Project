@@ -1,0 +1,33 @@
+# Yatharth Group of Institution Website
+
+## About Project
+
+This is a responsive educational website created using HTML, CSS, and JavaScript.
+
+## Features
+
+* Welcome Animation
+* Responsive Navbar
+* Course Section
+* Admission Form
+* Theme Switcher
+* Counter Animation
+* Back to Top Button
+* Mobile Friendly Design
+
+## Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+* Font Awesome
+
+## How to Run
+
+1. Download the project.
+2. Open the project folder.
+3. Run `index.html` using Live Server.
+
+## Author
+
+Rohit Modanwal

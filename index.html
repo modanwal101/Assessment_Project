@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Yatharth Group of Institution – Interactive Website Challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    
+    
+<!-- Welcome Screen -->
+<div id="welcome">
+
+   
+    <video autoplay muted loop playsinline class="welcome-video">
+        <source src="assets/animation/working-people-animation-pack-gif-download-292929@0.mp4" type="video/mp4">
+    </video>
+
+    
+    <div class="welcome-overlay"></div>
+
+    <!-- Welcome Content -->
+    <div class="welcome-content">
+        <h1>Welcome to Yatharth Group of Institution</h1>
+        <p>Building Skills, Building Careers</p>
+    </div>
+
+</div>
+
+
+
+    <header> 
+        <nav class="navbar"> 
+            <div class="logo">Yatharth GI</div>
+             <ul class="nav-links">
+                 <li><a href="#home">Home</a></li>
+                 <li><a href="#courses">Courses</a></li> 
+                 <li><a href="#admission">Admission</a></li> 
+                 <li><a href="#contact">Contact</a></li> 
+                 <!-- <li><i class="fa-solid fa-bars"></i> </li> -->
+             </ul>
+             <div class="hamburger"> <i class="fa-solid fa-bars"></i> 
+              </div>
+              <button id="theme-toggle"> <i class="fa-solid fa-circle-half-stroke"></i> </button> 
+            </nav>
+     </header>
+
+     
+      
+   <section id="home" class="hero">
+        <div class="hero-content">
+             <h1>Empowering Future Careers</h1>
+
+        <p>Learn industry-ready skills with Yatharth Group of Institution</p>
+
+        <div class="hero-buttons">
+
+            <button class="btn apply-btn">Apply Now</button>
+
+            <button class="btn explore-btn"> Explore Course </button>
+
+        </div>
+
+    </div>
+
+    <div class="hero-images">
+
+        <img src="assets/image/campus1.jpg"
+             alt="Campus Image">
+
+        <img src="assets/image/campus2.jpg"
+             alt="Campus Image">
+
+    </div>
+
+</section>
+
+
+   
+     
+    <section class="about"> 
+        <h2>About Institution</h2> 
+        <p> Yatharth Group of Institution provides quality education in technical, vocational and professional courses. </p> 
+    </section>
+
+    <!-- Course Section -->
+     
+    <section id="courses" class="courses"> 
+        <h2>Our Courses</h2> 
+        <div class="course-container">
+             <div class="course-card">
+                 <h3>Paramedical</h3>
+                  <p class="course-details"> Healthcare and medical support training. </p> 
+                </div> 
+                <div class="course-card">
+                     <h3>Fire & Safety</h3> 
+                     <p class="course-details"> Industrial safety and fire management. </p> 
+                    </div>
+                     <div class="course-card">
+                         <h3>Computer Vocational</h3> 
+                        <p class="course-details"> IT and software skill development. </p> 
+                    </div>
+                     <div class="course-card"> 
+                        <h3>Language Courses</h3>
+                         <p class="course-details"> English and communication skills. </p>
+                         </div>
+                          <div class="course-card">
+                             <h3>School Programs</h3> 
+                             <p class="course-details"> Academic and career-oriented programs. </p> 
+                            </div> 
+                        </div>
+                     </section>
+ 
+    <!-- Counter Section -->
+      <section class="counter-section">
+         <div class="counter-box"> 
+            <h2 class="counter" data-target="1000">0</h2>
+             <p>Students</p>
+          </div> 
+             <div class="counter-box">
+                 <h2 class="counter" data-target="100">0</h2>
+                  <p>Courses</p>
+              </div> 
+                 <div class="counter-box">
+                     <h2 class="counter" data-target="95">0</h2> 
+                     <p>Placement </p>
+                  </div>
+        </section>                   
+    <!-- Admission Form --> 
+     <section id="admission" class="admission">
+         <h2>Admission Form</h2> 
+         <form id="admissionForm"> 
+            <input type="text" id="name" placeholder="Full Name">
+             <input type="tel" id="mobile" placeholder="Mobile Number"> 
+             <input type="email" id="email" placeholder="Email Address"> 
+             <select id="course"> 
+                <option>Select Course</option> 
+                <option>Paramedical</option> 
+                
+                <option>Fire & Safety</option> 
+                <option>Computer Vocational</option> 
+                <option>Language Courses</option>
+                 <option>School Programs</option> 
+            </select> 
+                <input type="text" id="city" placeholder="City"> 
+                <button type="submit" id="submitBtn"> Submit </button>
+             </form> 
+                <div id="success-message">
+
+                </div> 
+            </section>    
+
+    <!-- Virtual Campus Tour --> 
+    <section class="tour">
+    <h2>Virtual Campus Tour</h2>
+
+    <button id="tour-btn">Start Campus Tour</button>
+
+    <div class="slider">
+
+        <button id="prev">❮</button>
+
+        <img id="campus-image"
+             src="assets/image/campus3.jpg"
+             alt="Campus Image">
+
+        <button id="next">❯</button>
+
+    </div>
+</section>
+      <!-- Back To Top --> 
+     <button id="backToTop"> ↑ </button> 
+     <!-- Footer --> 
+      <footer id="contact"> 
+        <p> © 2026 Yatharth Group of Institution </p>
+     </footer>        
+
+
+
+     <script src="app.js">
+     </script>
+</body>
+</html>
